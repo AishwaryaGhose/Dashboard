@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/public/img/letter-vector-logo-aj-260nw-615177038.jpg">
+    <title>Admindek | Admin Template</title>
+    <link rel="stylesheet" href="/public/build/tailwind.css">
+</head>
+
+<body class="font-body">
+    <header class="w-full  flex flex-col lg:grid lg:grid-cols-6 fixed shadow-sm">
+        <div class="bg-primary hidden lg:block col-span-1 border-b border-gray-900 py-6 px-4 ">
+            <div class="flex justify-between items-center">
+                <div class="flex">
+                    <img class="h-6 w-6 rounded-full mr-2" src="/public/img/letter-vector-logo-aj-260nw-615177038.jpg" alt="">
+                    <h2><a class="uppercase tracking-widest text-gray-200" href="#">admindek</a></h2>
+                </div>
+                <!-- <div>
+                    <svg id="toggle-off" class="h-5 w-5  text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="toggle-off" class="svg-inline--fa fa-toggle-off fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"></path></svg>
+                    <svg id="toggle-on" class="h-5 w-5 hidden text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="toggle-on" class="svg-inline--fa fa-toggle-on fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 320c-70.8 0-128-57.3-128-128 0-70.8 57.3-128 128-128 70.8 0 128 57.3 128 128 0 70.8-57.3 128-128 128z"></path></svg>
+                </div> -->
+            </div>
+        </div>
+        <div class="bg-primary border-gray-900 flex flex-row-reverse justify-between py-6 px-4 lg:hidden">
+            <div class="block">
+                <svg id="doted" class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+            </div>
+            <div class="flex gap-2">
+                <img class="h-6 w-6 rounded-full " src="/public/img/letter-vector-logo-aj-260nw-615177038.jpg" alt="">
+                <h2><a class="uppercase tracking-widest text-gray-200" href="#">admindek</a></h2>
+            </div>
+            <div>
+                <svg id="toggle-off" class="h-5 w-5  hidden text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="toggle-off" class="svg-inline--fa fa-toggle-off fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"></path></svg>
+                <svg id="toggle-on" class="h-5 w-5 text-white" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="toggle-on" class="svg-inline--fa fa-toggle-on fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 320c-70.8 0-128-57.3-128-128 0-70.8 57.3-128 128-128 70.8 0 128 57.3 128 128 0 70.8-57.3 128-128 128z"></path></svg>
+            </div>
+        </div>
+
+        <div id="list" class="lg:col-span-5 py-4 px-6 bg-white flex justify-between items-center border-b border-gray-200">
+            <div class="flex items-center gap-4">
+                <a href="#">
+                    <svg class="w-4 h-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </a>
+                <a href="#">
+                    <svg class="w-4 h-4 text-gray-600" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" class="svg-inline--fa fa-expand fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z"></path></svg>
+                </a>
+                <a href="#">
+                    <svg class="w-4 h-4 hidden text-gray-600" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="compress" class="svg-inline--fa fa-compress fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M436 192H312c-13.3 0-24-10.7-24-24V44c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v84h84c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-276-24V44c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v84H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24zm0 300V344c0-13.3-10.7-24-24-24H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-84h84c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12H312c-13.3 0-24 10.7-24 24v124c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12z"></path></svg>
+                </a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="#">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                </a>
+                <a href="#">
+                    <svg class="w-6 h-6  text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"></path><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"></path></svg>
+                </a>
+                <a class="flex items-center gap-1.5" href="#">
+                    <img class="w-9 h-9 rounded-full" src="/public/img/download (1).jpg" alt="">
+                    <span>Lemiara Patho</span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="grid grid-cols-6">
+        <!-- ---------------start sidebar------------------ -->
+        <div class="bg-primary text-gray-400 col-span-1 p-2 mt-16 hidden lg:block" id="menu-list">
+            <nav>
+                <div>
+                    <h2 class="mb-4 mt-3">
+                        <span class="text-gray-200 ml-2">Navigation</span>
+                    </h2>
+                    <ul>
+                        <li class="mb-2 border-l-4 border-blue-600 bg-gray-800 py-2">
+                            <a class="flex ml-5 items-center" href="">
+                                <svg class="w-5 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a class="flex ml-6 items-center" href="">
+                                <svg class="w-5 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path></svg>
+                                <span>Page layouts</span>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a class="flex ml-6 items-center" href="">
+                                <svg class="w-5 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                                <span>Navigation</span>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a class="flex ml-6 items-center" href="">
+                                <svg class="w-5 h-4 mr-2" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="buffer" class="svg-inline--fa fa-buffer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M427.84 380.67l-196.5 97.82a18.6 18.6 0 0 1-14.67 0L20.16 380.67c-4-2-4-5.28 0-7.29L67.22 350a18.65 18.65 0 0 1 14.69 0l134.76 67a18.51 18.51 0 0 0 14.67 0l134.76-67a18.62 18.62 0 0 1 14.68 0l47.06 23.43c4.05 1.96 4.05 5.24 0 7.24zm0-136.53l-47.06-23.43a18.62 18.62 0 0 0-14.68 0l-134.76 67.08a18.68 18.68 0 0 1-14.67 0L81.91 220.71a18.65 18.65 0 0 0-14.69 0l-47.06 23.43c-4 2-4 5.29 0 7.31l196.51 97.8a18.6 18.6 0 0 0 14.67 0l196.5-97.8c4.05-2.02 4.05-5.3 0-7.31zM20.16 130.42l196.5 90.29a20.08 20.08 0 0 0 14.67 0l196.51-90.29c4-1.86 4-4.89 0-6.74L231.33 33.4a19.88 19.88 0 0 0-14.67 0l-196.5 90.28c-4.05 1.85-4.05 4.88 0 6.74z"></path></svg>
+                                <span>Widget</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ---------------end sidebar------------------ -->
+
+        <!-- ---------------start container------------------ -->
+        <div class="col-span-5  bg-gray-100 mt-14">
+            <div class="m-6">
+                <ul class="lg:flex lg:justify-between justify-center items-center">
+                    <li class="flex">
+                        <div class="w-10 h-10 rounded-lg mt-1 ml-3 mr-4 shadow-lg flex items-center justify-center bg-blue-400">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        </div>
+                        <h2>
+                            <span>Dashboard CRM</span>
+                            <span class="block">lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                        </h2>
+                    </li>
+                    <li class="flex justify-end mr-6">
+                        <a href="#">
+                            <svg class="w-4 h-4 m-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        </a>
+                        <a href="#">
+                            <span> / Dashboard CRM</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:grid md:grid-cols-2 lg:grid-cols-4 mr-8">
+                <!-- -------------------------start card------------------------ -->
+                <div class="bg-red-500 text-gray-200 rounded-md ml-8 mt-2 p-4 text-base">
+                    <div>
+                        <ul class="flex justify-between items-center">
+                            <li>
+                                <span>Total Profit</span>
+                                <span class="block font-bold text-2xl">$1,783</span>
+                            </li>
+                            <li><svg class="w-8 h-8 bg-white  text-red-500 rounded-full" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <span class="text-xs mr-2">+11%</span>
+                        <span>From Previous Month</span>
+                    </div>
+                </div>
+                <div class="bg-blue-500 text-gray-200 rounded-md ml-8 mt-2 p-4 text-base">
+                    <div>
+                        <ul class="flex justify-between items-center">
+                            <li>
+                                <span>Total Order</span>
+                                <span class="block font-bold text-2xl">15,673</span>
+                            </li>
+                            <li><svg class="w-8 h-8 p-2 bg-white  text-blue-500 rounded-full" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path><path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path><path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path></svg></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <span class="text-xs mr-2">+14%</span>
+                        <span>From Previous Month</span>
+                    </div>
+                </div>
+                <div class="bg-green-500 text-gray-200 rounded-md ml-8 mt-2 p-4 text-base">
+                    <div>
+                        <ul class="flex justify-between items-center">
+                            <li>
+                                <span>Average Price</span>
+                                <span class="block font-bold text-2xl">$8,783</span>
+                            </li>
+                            <li><svg class="w-8 h-8 text-white rounded-full" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path></svg></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <span class="text-xs mr-2">+52%</span>
+                        <span>From Previous Month</span>
+                    </div>
+                </div>
+                <div class="bg-yellow-500 text-gray-200 rounded-md ml-8 mt-2 p-4 text-base">
+                    <div>
+                        <ul class="flex justify-between items-center">
+                            <li>
+                                <span>Total Profit</span>
+                                <span class="block font-bold text-2xl">4,783</span>
+                            </li>
+                            <li><svg class="w-8 h-8 p-2 text-yellow-500 bg-white rounded-full" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <span class="text-xs mr-2">+11%</span>
+                        <span>From Previous Month</span>
+                    </div>
+                </div>
+                <!-- -------------------------start card------------------------ -->
+            </div>
+            <div class="grid lg:grid-cols-2 m-8 gap-8">
+                <!-- --------------------start New & Customer-------------------- -->
+                <div class="lg:col-span-1 bg-white shadow-md p-6">
+                    <h2>
+                        <span>What's New</span>
+                    </h2>
+                    <ul class="p-4">
+                        <li class="flex mb-4">
+                            <img class="w-10 h-10 rounded-full mr-4 shadow-lg border-4 border-gray-300" src="/public/img/download (1).jpg" alt="">
+                            <h2>
+                                <a href="#"><span>Your Manager Posted</span></a>
+                                <span class="block text-sm text-gray-500">Lamiara Patho</span>
+                            </h2>
+                        </li>
+                        <li class="flex mb-4">
+                            <svg class="w-10 h-10 p-1 rounded-full mr-5 border-4 border-red-200 bg-red-400 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z"></path></svg>
+                            <h2>
+                                <a href="#"><span>Your Panding Task</span></a>
+                                <span class="block text-sm text-gray-500">Chittagong</span>
+                            </h2>
+                        </li>
+                        <li class="flex mb-4">
+                            <svg class="w-10 h-10 p-1 rounded-full mr-5 border-4 border-blue-200 bg-blue-400 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <h2>
+                                <a href="#"><span>New Order Received</span></a>
+                                <span class="block text-sm text-gray-500">Chittagong</span>
+                            </h2>
+                        </li>
+                        <li class="flex mb-4">
+                            <img class="w-10 h-10 rounded-full mr-4 shadow-lg border-4 border-gray-300" src="/public/img/download (1).jpg" alt="">
+                            <h2>
+                                <a href="#"><span>Your Manager Posted</span></a>
+                                <span class="block text-sm text-gray-500">Lamiara Patho</span>
+                            </h2>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-1 bg-white shadow-md p-6">
+                    <h2>
+                        <span>New Customer</span>
+                    </h2>
+                    <ul class="p-4">
+                        <li class="md:grid md:grid-cols-8 flex-col items-center mb-4">
+                            <div class="md:col-span-1 mr-4">
+                                <img class="w-10 h-10 rounded-full shadow-lg border-4 border-gray-300" src="/public/img/happy-cheerful-young-woman-wearing-260nw-613759379.jpg" alt="">
+                            </div>
+                            <div class="md:col-span-7 flex justify-between items-center">
+                                <h2>
+                                    <a href="#"><span>Alexa Voe</span></a>
+                                    <span class="block text-sm text-gray-500">Cheers!</span>
+                                </h2>
+                                <div class="bg-green-600 w-3 h-3 rounded-full float-right"></div>
+                            </div>
+                        </li>
+                        <li class="md:grid md:grid-cols-8 flex-col mb-4">
+                            <div class="md:col-span-1 mr-4">
+                                <img class="w-10 h-10 rounded-full shadow-lg border-4 border-gray-300" src="/public/img/download.jpg" alt="">
+                            </div>
+                            <div class="md:col-span-7 flex justify-between">
+                                <h2>
+                                    <a href="#"><span>Can Devid</span></a>
+                                    <span class="block text-sm text-gray-500">Stay Happy</span>
+                                </h2>
+                                <div class="bg-green-600 w-3 h-3 rounded-full float-right"></div>
+                            </div>
+                        </li>
+                        <li class="md:grid md:grid-cols-8 mb-4 flex-col">
+                            <div class="md:col-span-1 mr-4">
+                                <img class="w-10 h-10 rounded-full mr-4 shadow-lg border-4 border-gray-300" src="/public/img/download (2).jpg" alt="">
+                            </div>
+                            <div class="md:col-span-7 flex justify-between">
+                                <h2>
+                                    <a href="#"><span>Sanem Hon</span></a>
+                                    <span class="block text-sm text-gray-500">Cheers!</span>
+                                </h2>
+                                <div class="flex items-center">
+                                    <svg class="w-4 h-4 m-2 bg-white text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+                                    <span class="text-sm text-gray-500">30 mins ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="md:grid md:grid-cols-8 flex-col mb-4">
+                            <div class="md:col-span-1 mr-4">
+                                <img class="w-10 h-10 rounded-full mr-4 shadow-lg border-4 border-gray-300" src="/public/img/download (1).jpg" alt="">
+                            </div>
+                            <div class="md:col-span-7 flex justify-between">
+                                <h2>
+                                    <a href="#"><span>Lemiara Patho</span></a>
+                                    <span class="block text-sm text-gray-500">Cheers!</span>
+                                </h2>
+                                <div class="bg-green-600 w-3 h-3 rounded-full float-right"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- --------------------end New & Customer-------------------- -->
+            </div>
+        </div>
+        <!-- ---------------end container------------------ -->
+    </main>
+    <script src="/public/index.js"></script>
+</body>
+
+</html>
